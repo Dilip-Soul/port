@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial,;
+}
+
+body {
+    line-height: 1.5;
+    background-color: #edeef5;
+    color: #690c62;
+}
+
+h1{
+
+    font-size: 50px;
+    color: rgb(224, 227, 239);
+}
+header {
+    background-color: #19277e;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/744/804/845/computer-engineering-science-tech-wallpaper-preview.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding: 3rem;
+    text-align:center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #95e044;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: rgba(0, 6, 10, 0.944);
+}
+
+section {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #119331;
+}
+
+p, ul {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    color: rgb(140, 7, 83);
+    font-style: oblique;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: #d36767;
+}
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-photo {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
